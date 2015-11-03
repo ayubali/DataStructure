@@ -43,6 +43,9 @@ public class MargeSort {
 		while (i <= mid) {
 			numbers[k++] = helper[i++];
 		}
+		while (j <= high) {
+			numbers[k++] = helper[j++];
+		}
 
 	}
 	
