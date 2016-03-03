@@ -7,7 +7,7 @@ public class LinkedListUtil {
 			return false;
 		}
 		Node slow, first;
-		slow = first = null;
+		slow = first = star;
 		while (true) {
 			slow = slow.next;
 			if (first.next != null) {
